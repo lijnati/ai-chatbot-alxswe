@@ -1,5 +1,6 @@
 // Define your models here.
 
+
 export interface Model {
   id: string;
   label: string;
@@ -8,6 +9,12 @@ export interface Model {
 }
 
 export const models: Array<Model> = [
+  {
+    id: 'grok-beta',
+    label: 'Grok beta',
+    apiIdentifier:  'grok-beta',
+    description: 'Improved efficiency, speed and capabilities.'
+  },
   {
     id: 'gpt-4o-mini',
     label: 'GPT 4o mini',
