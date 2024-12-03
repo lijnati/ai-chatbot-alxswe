@@ -209,6 +209,12 @@ export async function POST(request: Request) {
                   type: 'content',
                   content: currentContent,
                 },
+              xai: {
+                prediction: {
+                  type: 'content',
+                  content: currentContent,
+                }
+              }
               },
             },
             messages: [
