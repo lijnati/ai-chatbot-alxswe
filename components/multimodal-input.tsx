@@ -35,9 +35,9 @@ const suggestedActions = [
     action: 'Tell me about Adama Science and Technology University?',
   },
   {
-    title: 'Write a short essay',
-    label: 'about the battle of Adwa',
-    action: 'Write a short essay about the battle of Adwa',
+    title: 'Who win',
+    label: 'at the battle of Adwa',
+    action: 'Who win at the battle of Adwa',
   },
 ];
 
@@ -100,13 +100,10 @@ export function MultimodalInput({
   useEffect(() => {
     if (textareaRef.current) {
       const domValue = textareaRef.current.value;
-      // Prefer DOM value over localStorage to handle hydration
       const finalValue = domValue || localStorageInput || '';
       setInput(finalValue);
       adjustHeight();
     }
-    // Only run once after hydration
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
