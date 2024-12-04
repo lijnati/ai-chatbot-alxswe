@@ -15,7 +15,7 @@ This is an Advanced AI chatbot built using the latest advancements in NLP. the p
 
 * Next.js 
 * TypeScript
-* PostgreSQL
+* PostgreSQL/Drizzle ORM
 * TailwindCSS
 * Vercel AI SDK
 * XAI API (Grok)
