@@ -31,13 +31,13 @@ import { Textarea } from './ui/textarea';
 const suggestedActions = [
   {
     title: 'Tell me about',
-    label: 'Adama Science and Technology University?',
-    action: 'Tell me about Adama Science and Technology University?',
+    label: 'Adama Science and Technology University',
+    action: 'Tell me about Adama Science and Technology University',
   },
   {
     title: 'Who win',
     label: 'at the battle of Adwa',
-    action: 'Who win at the battle of Adwa',
+    action: 'Who win at the battle of Adwa?',
   },
 ];
 
