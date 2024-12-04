@@ -3,6 +3,8 @@
   "style": "default",
   "rsc": true,
   "tsx": true,
+
+  
   "tailwind": {
     "config": "tailwind.config.ts",
     "css": "app/globals.css",
@@ -10,6 +12,7 @@
     "cssVariables": true,
     "prefix": ""
   },
+
   "aliases": {
     "components": "@/components",
     "utils": "@/lib/utils",
@@ -18,3 +21,8 @@
     "hooks": "@/hooks"
   }
 }
+
+
+
+
+

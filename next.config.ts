@@ -1,10 +1,10 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
   experimental: {
     ppr: true,
   },
+  //for users image - that's coming from vercel.sh 
   images: {
     remotePatterns: [
       {
@@ -15,3 +15,5 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+

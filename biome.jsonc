@@ -12,6 +12,8 @@
       ".vercel"
     ]
   },
+
+
   "vcs": {
     "enabled": true,
     "clientKind": "git",
@@ -129,3 +131,5 @@
     }
   ]
 }
+
+
