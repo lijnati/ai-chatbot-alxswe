@@ -36,7 +36,7 @@ const suggestedActions = [
   },
   {
     title: 'Who won',
-    label: 'at the battle of Adwa',
+    label: 'the battle of Adwa',
     action: 'Who won at the battle of Adwa?',
   },
 ];
