@@ -1,9 +1,7 @@
 import type { JSONValue } from 'ai';
 import { type Dispatch, type SetStateAction, useEffect, useState } from 'react';
 import { useSWRConfig } from 'swr';
-
 import type { Suggestion } from '@/lib/db/schema';
-
 import type { UIBlock } from './block';
 
 type StreamingDelta = {
