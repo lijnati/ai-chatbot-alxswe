@@ -1,6 +1,5 @@
 import type { JSONValue } from 'ai';
 import { type Dispatch, memo, type SetStateAction } from 'react';
-
 import type { UIBlock } from './block';
 import { useBlockStream } from './use-block-stream';
 
