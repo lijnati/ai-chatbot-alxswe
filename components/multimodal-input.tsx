@@ -35,9 +35,9 @@ const suggestedActions = [
     action: 'Tell me about Adama Science and Technology University',
   },
   {
-    title: 'Who win',
+    title: 'Who won',
     label: 'at the battle of Adwa',
-    action: 'Who win at the battle of Adwa?',
+    action: 'Who won at the battle of Adwa?',
   },
 ];
 

@@ -4,7 +4,6 @@ import { ThemeProvider } from '@/components/theme-provider';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://chat.vercel.ai'),
   title: 'AI Chatbot - ASTUCSEC',
   description: 'Advanced AI Chatbot - using Grok API',
 };

@@ -10,10 +10,8 @@ import { register, type RegisterActionState } from '../actions';
 
 export default function Page() {
   const router = useRouter();
-
   const [email, setEmail] = useState('');
   const [isSuccessful, setIsSuccessful] = useState(false);
-
   const [state, formAction] = useActionState<RegisterActionState, FormData>(
     register,
     {
