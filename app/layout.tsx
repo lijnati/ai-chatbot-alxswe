@@ -5,7 +5,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'AI Chatbot - ALXSWE',
-  description: 'Advanced AI Chatbot - using Grok API',
+  description: 'Advanced AI Chatbot - using Google Gemini API',
 };
 
 const LIGHT_THEME_COLOR = 'hsl(0 0% 100%)';

@@ -8,14 +8,14 @@ export interface Model {
 
 export const models: Array<Model> = [
   {
-    id: 'grok-beta',
-    label: 'Grok beta',
-    apiIdentifier:  'grok-beta',
+    id: 'gemini-1.5-pro-latest',
+    label: 'Gemini 1.5-pro',
+    apiIdentifier:  'gemini-1.5-pro-latest',
     description: 'Improved efficiency, speed and capabilities.'
   },
 ] as const;
 
-export const DEFAULT_MODEL_NAME: string = 'grok-beta';
+export const DEFAULT_MODEL_NAME: string = 'gemini-1.5-pro-latest';
 
 
 

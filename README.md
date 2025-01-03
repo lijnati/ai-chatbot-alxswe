@@ -18,4 +18,4 @@ This is an Advanced AI chatbot built using the latest advancements in NLP. the p
 * PostgreSQL/Drizzle ORM
 * TailwindCSS
 * Vercel AI SDK
-* XAI API (Grok)
+* Google API (Gemini)
