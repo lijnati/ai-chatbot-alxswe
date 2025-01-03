@@ -8,14 +8,14 @@ export interface Model {
 
 export const models: Array<Model> = [
   {
-    id: 'gemini-1.5-pro-latest',
-    label: 'Gemini 1.5-pro',
-    apiIdentifier:  'gemini-1.5-pro-latest',
+    id: 'gemini-1.5-flash',
+    label: 'Gemini 1.5-flash',
+    apiIdentifier:  'gemini-1.5-flash',
     description: 'Improved efficiency, speed and capabilities.'
   },
 ] as const;
 
-export const DEFAULT_MODEL_NAME: string = 'gemini-1.5-pro-latest';
+export const DEFAULT_MODEL_NAME: string = 'gemini-1.5-flash';
 
 
 
