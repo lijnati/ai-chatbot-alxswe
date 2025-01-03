@@ -1,6 +1,6 @@
-# Generative Advanced AI Chatbot - ASTUCSEC 
+# Generative Advanced AI Chatbot - ALX WebStack Portfolio 
 
-This is an Advanced AI chatbot built using the latest advancements in NLP. the project was developed as an assignment for **ASTUCSEC Dev Team**, showcasing my skills in building a modern web app using advanced technologies.  It's designed to provide informative and engaging conversations.
+This is an Advanced AI chatbot built using the latest advancements in NLP. the project was developed a capstone project for **ALXSWE**, showcasing my skills in building a modern web app using advanced technologies.  It's designed to provide informative and engaging conversations.
 
 ## Features
 

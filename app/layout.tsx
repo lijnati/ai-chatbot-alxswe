@@ -4,7 +4,7 @@ import { ThemeProvider } from '@/components/theme-provider';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'AI Chatbot - ASTUCSEC',
+  title: 'AI Chatbot - ALXSWE',
   description: 'Advanced AI Chatbot - using Grok API',
 };
 
