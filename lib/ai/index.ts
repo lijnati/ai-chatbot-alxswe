@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+
 import { xai } from '@ai-sdk/xai'; 
 import { experimental_wrapLanguageModel as wrapLanguageModel } from 'ai';
 
@@ -10,3 +10,5 @@ export const customModel = (apiIdentifier: string) => {
     middleware: customMiddleware,
   });
 };
+
+
