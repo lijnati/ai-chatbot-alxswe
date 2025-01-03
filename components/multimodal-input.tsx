@@ -31,8 +31,8 @@ import { Textarea } from './ui/textarea';
 const suggestedActions = [
   {
     title: 'Tell me about',
-    label: 'Adama Science and Technology University',
-    action: 'Tell me about Adama Science and Technology University',
+    label: 'ALX ',
+    action: 'Tell me about ALX',
   },
   {
     title: 'Who won',
